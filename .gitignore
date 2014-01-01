@@ -24,6 +24,6 @@ proguard/
 
 # Intellij project files
 # *.iml
-*.ipr
-*.iws
-.idea/
+# *.ipr
+# *.iws
+# .idea/
