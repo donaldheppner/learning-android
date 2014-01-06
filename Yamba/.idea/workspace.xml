@@ -9,6 +9,14 @@
     <shared>
       <config />
     </shared>
+    <layouts>
+      <layout url="file://$PROJECT_DIR$/res/layout/timeline.xml">
+        <config>
+          <device>Nexus 4</device>
+          <theme>@android:style/Theme.Holo</theme>
+        </config>
+      </layout>
+    </layouts>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77e705be-9862-4686-aeaa-983ad80b9856" name="Default" comment="" />
@@ -74,61 +82,93 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="StatusActivity.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/donaldheppner/yamba/StatusActivity.java">
+      <file leaf-file-name="UpdaterService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/donaldheppner/yamba/UpdaterService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="77" column="23" selection-start="2436" selection-end="2436" vertical-scroll-proportion="0.46681923" vertical-offset="765" max-vertical-offset="2295">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="81" selection-start="756" selection-end="756" vertical-scroll-proportion="0.0" vertical-offset="5" max-vertical-offset="442">
+            <state line="38" column="62" selection-start="1170" selection-end="1170" vertical-scroll-proportion="0.0" vertical-offset="268" max-vertical-offset="1802">
               <folding>
-                <element signature="e#434#452#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="menu.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/menu/menu.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="65" selection-start="171" selection-end="171" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="status.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/status.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="45" selection-start="312" selection-end="312" vertical-scroll-proportion="-3.4" vertical-offset="0" max-vertical-offset="816">
-              <folding>
-                <element signature="e#568#589#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+      <file leaf-file-name="timeline.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/res/layout/timeline.xml">
           <provider editor-type-id="android-designer">
             <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="24" selection-start="748" selection-end="748" vertical-scroll-proportion="0.5774947" vertical-offset="0" max-vertical-offset="476">
+              <folding>
+                <element signature="e#495#518#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TimelineActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/donaldheppner/yamba/TimelineActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="39" column="31" selection-start="935" selection-end="935" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1037">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StatusData.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/donaldheppner/yamba/StatusData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="68" column="57" selection-start="2154" selection-end="2154" vertical-scroll-proportion="0.0" vertical-offset="1326" max-vertical-offset="2159">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DbHelper.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/donaldheppner/yamba/DbHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="45" selection-start="998" selection-end="998" vertical-scroll-proportion="0.0" vertical-offset="64" max-vertical-offset="884">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="YambaApplication.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/donaldheppner/yamba/YambaApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="107" column="5" selection-start="3561" selection-end="3561" vertical-scroll-proportion="0.0" vertical-offset="1033" max-vertical-offset="1955">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1670#1671#0" expanded="true" />
+                <element signature="e#1707#1708#0" expanded="true" />
+                <element signature="e#1768#1769#0" expanded="true" />
+                <element signature="e#1820#1821#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Twitter.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/libs/jtwitter-yamba.jar!/winterwell/jtwitter/Twitter.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="107" column="62" selection-start="5473" selection-end="5473" vertical-scroll-proportion="-8.2" vertical-offset="1597" max-vertical-offset="7327">
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="prefs.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/xml/prefs.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="19" selection-start="703" selection-end="703" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-              <folding>
-                <element signature="e#156#179#0" expanded="true" />
-                <element signature="e#220#245#0" expanded="true" />
-                <element signature="e#330#353#0" expanded="true" />
-                <element signature="e#418#443#0" expanded="true" />
-                <element signature="e#552#574#0" expanded="true" />
-                <element signature="e#615#639#0" expanded="true" />
-              </folding>
+            <state line="12" column="19" selection-start="703" selection-end="703" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="306">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -136,7 +176,7 @@
       <file leaf-file-name="PrefsActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/donaldheppner/yamba/PrefsActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="48" selection-start="407" selection-end="407" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+            <state line="15" column="48" selection-start="407" selection-end="407" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="391">
               <folding />
             </state>
           </provider>
@@ -145,7 +185,7 @@
       <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="522" selection-end="522" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+            <state line="17" column="51" selection-start="812" selection-end="812" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
               <folding />
             </state>
           </provider>
@@ -164,18 +204,24 @@
         <option value="$PROJECT_DIR$/res/layout/status.xml" />
         <option value="$PROJECT_DIR$/res/xml/prefs.xml" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/res/menu/menu.xml" />
-        <option value="$PROJECT_DIR$/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/src/com/donaldheppner/yamba/PrefsActivity.java" />
+        <option value="$PROJECT_DIR$/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/res/menu/menu.xml" />
         <option value="$PROJECT_DIR$/src/com/donaldheppner/yamba/StatusActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/donaldheppner/yamba/DbHelper.java" />
+        <option value="$PROJECT_DIR$/src/com/donaldheppner/yamba/StatusData.java" />
+        <option value="$PROJECT_DIR$/src/com/donaldheppner/yamba/YambaApplication.java" />
+        <option value="$PROJECT_DIR$/src/com/donaldheppner/yamba/UpdaterService.java" />
+        <option value="$PROJECT_DIR$/res/layout/timeline.xml" />
+        <option value="$PROJECT_DIR$/src/com/donaldheppner/yamba/TimelineActivity.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1928" />
-    <option name="y" value="-188" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="height" value="1176" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -203,8 +249,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -290,6 +334,42 @@
               <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="menu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Yamba" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Yamba" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Yamba" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Yamba" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -311,6 +391,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -380,6 +462,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -405,19 +500,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -512,35 +594,35 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-188" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1984375" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1984375" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39943874" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32982087" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.51211804" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292797" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5116932" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1140625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32982087" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292797" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -566,21 +648,60 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/donaldheppner/yamba/StatusActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+        <state line="77" column="23" selection-start="2436" selection-end="2436" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2295">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/status.xml">
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="42" selection-start="923" selection-end="923" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="646">
+        <state line="14" column="81" selection-start="756" selection-end="756" vertical-scroll-proportion="0.0" vertical-offset="5" max-vertical-offset="442">
           <folding>
-            <element signature="e#568#589#0" expanded="true" />
+            <element signature="e#787#807#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/menu/menu.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="65" selection-start="171" selection-end="171" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="187">
+          <folding>
+            <element signature="e#158#178#0" expanded="false" />
+            <element signature="e#269#296#0" expanded="false" />
+            <element signature="e#416#442#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/status.xml">
       <provider editor-type-id="android-designer">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="45" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="816">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/xml/prefs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="19" selection-start="703" selection-end="703" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="306">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/donaldheppner/yamba/PrefsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="48" selection-start="407" selection-end="407" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="391">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="522" selection-end="522" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="408">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/donaldheppner/yamba/StatusActivity.java">
@@ -591,48 +712,38 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/status.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="42" selection-start="923" selection-end="923" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="646">
-          <folding>
-            <element signature="e#568#589#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/status.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="45" selection-start="312" selection-end="312" vertical-scroll-proportion="-3.4" vertical-offset="0" max-vertical-offset="816">
-          <folding>
-            <element signature="e#568#589#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="81" selection-start="756" selection-end="756" vertical-scroll-proportion="0.0" vertical-offset="5" max-vertical-offset="442">
-          <folding>
-            <element signature="e#434#452#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/menu/menu.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="65" selection-start="171" selection-end="171" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/donaldheppner/yamba/StatusActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="522" selection-end="522" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+        <state line="5" column="13" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/status.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="42" selection-start="923" selection-end="923" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="646">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/status.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="45" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="816">
           <folding />
         </state>
       </provider>
@@ -640,14 +751,7 @@
     <entry file="file://$PROJECT_DIR$/res/xml/prefs.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="19" selection-start="703" selection-end="703" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-          <folding>
-            <element signature="e#156#179#0" expanded="true" />
-            <element signature="e#220#245#0" expanded="true" />
-            <element signature="e#330#353#0" expanded="true" />
-            <element signature="e#418#443#0" expanded="true" />
-            <element signature="e#552#574#0" expanded="true" />
-            <element signature="e#615#639#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -658,10 +762,119 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="51" selection-start="812" selection-end="812" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="33" selection-start="386" selection-end="386" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
+          <folding>
+            <element signature="e#787#807#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/menu/menu.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="60" selection-start="537" selection-end="537" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <folding>
+            <element signature="e#158#178#0" expanded="false" />
+            <element signature="e#269#296#0" expanded="false" />
+            <element signature="e#416#442#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/donaldheppner/yamba/StatusActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="23" selection-start="2436" selection-end="2436" vertical-scroll-proportion="0.46681923" vertical-offset="765" max-vertical-offset="2295">
+        <state line="70" column="39" selection-start="2306" selection-end="2306" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2176">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Android/android-sdk/sources/android-18/android/database/sqlite/SQLiteOpenHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="319" column="25" selection-start="13428" selection-end="13428" vertical-scroll-proportion="0.33279222" vertical-offset="4878" max-vertical-offset="6205">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/donaldheppner/yamba/DbHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="45" selection-start="998" selection-end="998" vertical-scroll-proportion="0.0" vertical-offset="64" max-vertical-offset="884">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/donaldheppner/yamba/StatusData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="57" selection-start="2154" selection-end="2154" vertical-scroll-proportion="0.0" vertical-offset="1326" max-vertical-offset="2159">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/jtwitter-yamba.jar!/winterwell/jtwitter/Twitter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="107" column="62" selection-start="5473" selection-end="5473" vertical-scroll-proportion="-8.2" vertical-offset="1597" max-vertical-offset="7327">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/donaldheppner/yamba/YambaApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="107" column="5" selection-start="3561" selection-end="3561" vertical-scroll-proportion="0.0" vertical-offset="1033" max-vertical-offset="1955">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1670#1671#0" expanded="true" />
+            <element signature="e#1707#1708#0" expanded="true" />
+            <element signature="e#1768#1769#0" expanded="true" />
+            <element signature="e#1820#1821#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Android/android-sdk/sources/android-18/android/app/Service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="298" column="29" selection-start="15163" selection-end="15163" vertical-scroll-proportion="0.33279222" vertical-offset="4419" max-vertical-offset="11781">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/donaldheppner/yamba/UpdaterService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="62" selection-start="1170" selection-end="1170" vertical-scroll-proportion="0.0" vertical-offset="268" max-vertical-offset="1802">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/donaldheppner/yamba/TimelineActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="31" selection-start="935" selection-end="935" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1037">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/timeline.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="24" selection-start="748" selection-end="748" vertical-scroll-proportion="0.5774947" vertical-offset="0" max-vertical-offset="476">
+          <folding>
+            <element signature="e#495#518#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

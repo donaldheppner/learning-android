@@ -15,4 +15,7 @@
     <string name="summaryUsername">Please enter your Twitter username</string>
     <string name="summaryPassword">Please enter your Twitter password</string>
     <string name="summaryApiRoot">URL of the Root API for your service</string>
+    <string name="titleServiceStart">Start</string>
+    <string name="titleServiceStop">Stop</string>
+    <string name="titleTimeline">Timeline</string>
 </resources>

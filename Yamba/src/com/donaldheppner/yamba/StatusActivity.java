@@ -68,6 +68,12 @@ public class StatusActivity extends Activity implements View.OnClickListener, Te
             case R.id.itemPrefs:
                 startActivity(new Intent(this, PrefsActivity.class));
                 break;
+            case R.id.itemServiceStart:
+                startService(new Intent(this, UpdaterService.class));
+                break;
+            case R.id.itemServiceStop:
+                stopService(new Intent(this, UpdaterService.class));
+                break;
         }
 
         return true;
@@ -78,27 +84,14 @@ public class StatusActivity extends Activity implements View.OnClickListener, Te
         twitter = null;
     }
 
-    private Twitter getTwitter() {
-        if (twitter == null) {
-            String username, password, apiRoot;
-            username = prefs.getString("username", "");
-            password = prefs.getString("password", "");
-            apiRoot = prefs.getString("apiRoot", "http://yamba.marakana.com/api");
-
-            twitter = new Twitter(username, password);
-            twitter.setAPIRootUrl(apiRoot);
-        }
-
-        return twitter;
-    }
-
     // Asynchronously posts to twitter
     class PostToTwitter extends AsyncTask<String, Integer, String> {
         // Called to initiate the background activity
         @Override
         protected String doInBackground(String... statuses) {
             try {
-                Twitter.Status status = getTwitter().updateStatus(statuses[0]);
+                YambaApplication application = (YambaApplication) getApplication();
+                Twitter.Status status = application.getTwitter().updateStatus(statuses[0]);
                 return status.text;
             } catch (TwitterException e) {
                 Log.e(TAG, e.toString());
